@@ -1,0 +1,33 @@
+{
+  "name": "jlc-alexa-sdk-mood-ring",
+  "version": "1.0.0",
+  "description": "Mood Ring Alexa Skill for Node.js",
+  "main": "index.js",
+  "contributors": [
+    "Jason Crane <jasonlcrane@gmail.com>"
+  ],
+  "dependencies": {
+    "alexa-sdk": "^1.0.10"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jasonlcrane/alexa-skill-mood-ring.git"
+  },
+  "keywords": [
+    "Alexa",
+    "skill",
+    "sdk",
+    "node",
+    "mood"
+  ],
+  "author": "Jason Crane",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jasonlcrane/alexa-skill-mood-ring/issues"
+  },
+  "homepage": "https://github.com/jasonlcrane/alexa-skill-mood-ring/issues#readme"
+}

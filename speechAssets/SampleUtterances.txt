@@ -1,0 +1,6 @@
+MoodIntent what does {Color} mean
+MoodIntent what {Color} means
+MoodIntent what does it mean when my mood ring is {Color}
+MoodIntent why is my mood ring {Color}
+MoodIntent why is my ring {Color}
+MoodIntent my ring is {Color}
