@@ -22,7 +22,7 @@ To run this example skill you need to do a few things.
 7. Go to the the src directory, select all files and then create a zip file, make sure the zip file does not contain the src directory itself, otherwise Lambda function will not work.
 8. Change Code entry type to "Upload a .ZIP file" and then upload the .zip file to the Lambda. No changes to the encryption helpers or Environment variables are needed for this skill.
 9. Keep the Handler as index.handler. This refers to the function exported in the index.js file in the zip.
-10. Select "Choose an existing role" for Role, and "service-role/lambda_basic_execution" for Existing Role.
+10. Under Role, if this is your first Alexa skill, select "Create new role from template(s)", call it "lambda_basic_execution", and select "Simple Microservice permissions" in the Policy templates dropdown. If you have done this before, you probably already have a "lambda_basic_execution" role, so select "Choose an existing role" in the Role dropdown and the lambda_basic_execution role for Existing role. More can be found on this [Alexa Skills Kit doc page](https://developer.amazon.com/public/solutions/alexa/alexa-skills-kit/docs/developing-an-alexa-skill-as-a-lambda-function#define-new-role) (as of July 2017):
 11. No Tags are needed, and leave the Advanced settings as the defaults.
 12. Click "Next" and review the settings then click "Create Function".
 13. Click the "Actions" dropdown and select "Publish new version". Add a description that is meaningful to you, it's not used for any other purpose. Note: Only published versions can be used by your Alexa Skill.
